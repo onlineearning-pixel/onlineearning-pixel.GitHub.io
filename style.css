@@ -124,3 +124,85 @@ form button:hover {
 #services div {
     margin-bottom: 15px;
 }
+/* About Section */
+#about {
+    padding: 20px;
+    background-color: #f4f4f9; /* Light gray background */
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#about h2, #about h3 {
+    color: #333;  /* Dark text for headings */
+}
+
+#about p, #about ul {
+    color: #555;  /* Slightly lighter text for paragraphs */
+}
+
+/* Services Section */
+#services {
+    padding: 20px;
+    background-color: #f9f9f9; /* Very light gray background */
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#services h2 {
+    color: #007BFF;  /* Blue for section title */
+}
+
+#services h3 {
+    color: #333;  /* Dark color for service titles */
+}
+
+#services div {
+    margin-bottom: 15px;
+}
+
+#services p {
+    color: #555;  /* Light text for service descriptions */
+}
+/* About Section */
+#about {
+    padding: 20px;
+    background-color: #f4f4f9; /* Light gray background */
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#about h2, #about h3 {
+    color: #333;  /* Dark text for headings */
+}
+
+#about p, #about ul {
+    color: #555;  /* Slightly lighter text for paragraphs */
+}
+
+/* Services Section */
+#services {
+    padding: 20px;
+    background-color: #f9f9f9; /* Very light gray background */
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#services h2 {
+    color: #007BFF;  /* Blue for section title */
+}
+
+#services h3 {
+    color: #333;  /* Dark color for service titles */
+}
+
+#services div {
+    margin-bottom: 15px;
+}
+
+#services p {
+    color: #555;  /* Light text for service descriptions */
+}
