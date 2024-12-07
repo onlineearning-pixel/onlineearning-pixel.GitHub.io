@@ -5,48 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Tutor Platform</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <!-- Header Section -->
-    <header>
-        <div class="header-content">
-            <h1>Transforming Education, Lives, and the World</h1>
-            <p>Find the perfect tutor to guide you to success.</p>
-            <button>Explore Courses</button>
+    <header class="header">
+        <div class="header-overlay">
+            <div class="header-content">
+                <h1>Transforming Education, Lives, and the World</h1>
+                <p>Discover expert tutors to elevate your learning journey.</p>
+                <button>Explore Courses</button>
+            </div>
         </div>
     </header>
 
-    <!-- Navigation Bar -->
-    <nav>
+    <!-- Navigation Menu -->
+    <nav class="navbar">
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#process">Process</a></li>
+            <li><a href="#awards">Awards</a></li>
             <li><a href="#courses">Courses</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <!-- Learning Process Section -->
-    <section id="process">
-        <h2>Our Learning Process</h2>
+    <section id="process" class="section">
+        <h2 class="section-title">Our Learning Process</h2>
         <div class="process-grid">
             <div class="card">
-                <img src="identify-task.jpg" alt="Identify Task">
+                <img src="process1.jpg" alt="Identify Task">
                 <h3>Identify the Task</h3>
-                <p>Understand your goals to create a tailored learning experience.</p>
+                <p>We help you understand and outline your educational goals.</p>
             </div>
             <div class="card">
-                <img src="set-agenda.jpg" alt="Set Agenda">
+                <img src="process2.jpg" alt="Set Agenda">
                 <h3>Set an Agenda</h3>
-                <p>Develop a clear plan to achieve milestones effectively.</p>
+                <p>Create a plan that aligns with your learning objectives.</p>
+            </div>
+            <div class="card">
+                <img src="process3.jpg" alt="Break Task">
+                <h3>Break the Task</h3>
+                <p>Segment your tasks to achieve results step-by-step.</p>
             </div>
         </div>
     </section>
 
+    <!-- Awards Section -->
+    <section id="awards" class="section awards">
+        <h2 class="section-title">Awards Earned</h2>
+        <div class="awards-grid">
+            <div>
+                <i class="fas fa-trophy"></i>
+                <h3>Top 20 Tutors</h3>
+            </div>
+            <div>
+                <i class="fas fa-medal"></i>
+                <h3>Best Tutor 2020</h3>
+            </div>
+            <div>
+                <i class="fas fa-users"></i>
+                <h3>Most Students</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section">
+        <h2 class="section-title">Featured Courses</h2>
+        <div class="courses-grid">
+            <div class="course-card">
+                <img src="course1.jpg" alt="Course">
+                <h3>Personal Finance</h3>
+                <p>Learn to manage your money effectively.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="course2.jpg" alt="Course">
+                <h3>Programming</h3>
+                <p>Master coding with hands-on projects.</p>
+                <button>Enroll Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2 class="section-title">Connect with Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Online Tutor Platform. All rights reserved.</p>
+        <p>&copy; 2024 Online Tutor Platform | All rights reserved.</p>
     </footer>
 </body>
-</html>
+        </html>
