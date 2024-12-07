@@ -3,120 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Earnings - Start Earning Today</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>Online Tutor Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-
     <!-- Header Section -->
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="logo.png" alt="Logo">
-            </div>
-            <ul class="nav-links">
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <h1>Transforming Education, Lives, and the World</h1>
+            <p>Find the perfect tutor to guide you to success.</p>
+            <button>Explore Courses</button>
+        </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Discover the Best Online Earning Opportunities</h1>
-            <p>Explore various ways to earn money online, from freelancing to passive income methods. Start your journey today!</p>
-            <a href="#services" class="btn-primary">Get Started</a>
-        </div>
-    </section>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <div class="about-content">
-            <div class="about-text">
-                <p>We are an online platform dedicated to helping individuals discover reliable online earning methods. Our mission is to provide resources and guidance for building a sustainable online career. Whether you're a beginner or an expert, we offer a wide range of earning strategies tailored to your needs.</p>
-                <p>Over the past few years, we have partnered with trusted platforms, industry experts, and successful entrepreneurs to bring you the best opportunities. Our platform is designed to be user-friendly and comprehensive, so you can start earning from the comfort of your home.</p>
-                <p>Our team is passionate about helping you succeed in the online space. With a combination of expert advice, reliable resources, and a community of like-minded individuals, we’re confident that you’ll find the path to financial freedom.</p>
+    <!-- Learning Process Section -->
+    <section id="process">
+        <h2>Our Learning Process</h2>
+        <div class="process-grid">
+            <div class="card">
+                <img src="identify-task.jpg" alt="Identify Task">
+                <h3>Identify the Task</h3>
+                <p>Understand your goals to create a tailored learning experience.</p>
             </div>
-            <img src="about-image.jpg" alt="About Us">
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <h2>Our Services</h2>
-        <div class="service-list">
-            <div class="service-item">
-                <img src="service1.jpg" alt="Freelancing">
-                <h3>Freelancing</h3>
-                <p>Freelancing is one of the most popular ways to earn money online. We provide a variety of resources and guides to help you get started as a freelancer, whether you’re in writing, design, or development.</p>
-                <p>By freelancing, you can work on projects that interest you and have the freedom to set your own rates. Our platform connects you to clients and platforms that match your skill set.</p>
-            </div>
-            <div class="service-item">
-                <img src="service2.jpg" alt="Affiliate Marketing">
-                <h3>Affiliate Marketing</h3>
-                <p>Affiliate marketing allows you to earn commissions by promoting products and services. We offer in-depth guides, tips, and tricks to help you succeed in affiliate marketing. Whether you have a blog or a social media following, this is a great way to earn passive income.</p>
-                <p>Our resources cover everything from choosing affiliate programs to creating effective marketing strategies that convert leads into sales.</p>
-            </div>
-            <div class="service-item">
-                <img src="service3.jpg" alt="Online Courses">
-                <h3>Online Courses</h3>
-                <p>Develop your own online course and teach others valuable skills. Whether you’re an expert in a niche area or you have a passion for teaching, we can guide you through the process of creating and marketing your course.</p>
-                <p>Our platform connects you to the best course-building tools and marketing platforms to help you reach your audience and earn income while teaching what you love.</p>
+            <div class="card">
+                <img src="set-agenda.jpg" alt="Set Agenda">
+                <h3>Set an Agenda</h3>
+                <p>Develop a clear plan to achieve milestones effectively.</p>
             </div>
         </div>
     </section>
 
-    <!-- Blog Section -->
-    <section id="blog" class="blog">
-        <h2>Latest Blog Posts</h2>
-        <div class="blog-posts">
-            <div class="blog-post">
-                <h3>How to Get Started with Freelancing</h3>
-                <p>Freelancing can be an excellent way to earn money online. In this post, we explore the best strategies for getting started, finding clients, and setting your rates.</p>
-                <a href="#" class="btn-secondary">Read More</a>
-            </div>
-            <div class="blog-post">
-                <h3>Top Affiliate Programs to Join in 2024</h3>
-                <p>Affiliate marketing is one of the easiest ways to make passive income online. In this article, we’ve compiled a list of the best affiliate programs for beginners.</p>
-                <a href="#" class="btn-secondary">Read More</a>
-            </div>
-            <div class="blog-post">
-                <h3>Creating and Selling Your Own Online Course</h3>
-                <p>If you have expertise in a specific field, creating an online course can be a lucrative way to generate income. Learn how to get started with our step-by-step guide.</p>
-                <a href="#" class="btn-secondary">Read More</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <h2>What Our Users Say</h2>
-        <div class="testimonial-slider">
-            <div class="testimonial">
-                <p>"This platform helped me transition from a regular job to a successful freelancing career. I love how easy it is to find clients, and the resources are incredibly helpful!"</p>
-                <h3>Jane Doe</h3>
-                <p>Freelancer</p>
-            </div>
-            <div class="testimonial">
-                <p>"I started affiliate marketing using the tips I found here, and now I make a passive income every month. The guides are clear and actionable!"</p>
-                <h3>John Smith</h3>
-                <p>Affiliate Marketer</p>
-            </div>
-            <div class="testimonial">
-                <p>"Creating my online course was easier than I thought. I followed the steps, and now I have a growing community of students."</p>
-                <h3>Sarah Lee</h3>
-                <p>Course Creator</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <form id="contact-form" onsubmit
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Online Tutor Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
