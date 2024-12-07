@@ -1,47 +1,50 @@
-// Smooth Scroll Navigation
-document.querySelectorAll('.nav-links a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-        });
-    });
-});
-
-// Testimonial Slider Logic
-let currentIndex = 0;
-const testimonials = document.querySelectorAll('.testimonial');
-const totalTestimonials = testimonials.length;
-
-function showTestimonial(index) {
-    // Hide all testimonials
-    testimonials.forEach(testimonial => {
-        testimonial.style.display = 'none';
-    });
-    // Show the current testimonial
-    testimonials[index].style.display = 'block';
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-function nextTestimonial() {
-    currentIndex = (currentIndex + 1) % totalTestimonials;
-    showTestimonial(currentIndex);
+header {
+    background: url('header.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
 }
 
-showTestimonial(currentIndex);  // Initial display
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
 
-// Contact Form Validation
-function validateForm() {
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+nav ul li {
+    margin: 0 15px;
+}
 
-    if (name && email && message) {
-        alert('Form submitted successfully!');
-        return true; // Form is valid
-    } else {
-        alert('Please fill in all fields.');
-        return false; // Form is invalid
-    }
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card img {
+    width: 100%;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
